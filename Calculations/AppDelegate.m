@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "RootViewController.h"
+#import "CalculationsNavigationViewController.h"
 
 
 @interface AppDelegate ()
@@ -23,7 +24,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     RootViewController *rootViewController = [[RootViewController alloc] init];
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    UINavigationController *navController = [[CalculationsNavigationViewController alloc] initWithRootViewController:rootViewController];
     self.window.rootViewController = navController;
     application.statusBarHidden = YES;
     return YES;
@@ -51,10 +52,6 @@
 }
 
 #pragma mark - Core Data stack
-
-@synthesize managedObjectContext = _managedObjectContext;
-@synthesize managedObjectModel = _managedObjectModel;
-@synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (NSURL *)applicationDocumentsDirectory
 {

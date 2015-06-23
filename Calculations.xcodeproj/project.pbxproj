@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		990271B11B398C8400F476C6 /* RootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 990271AF1B398C8400F476C6 /* RootTableViewCell.m */; };
+		990271B21B398C8400F476C6 /* RootTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 990271B01B398C8400F476C6 /* RootTableViewCell.xib */; };
+		990271B41B398F0100F476C6 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 990271B31B398F0100F476C6 /* RootViewController.xib */; };
+		990271BC1B39920D00F476C6 /* CalculationsNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 990271BB1B39920D00F476C6 /* CalculationsNavigationViewController.m */; };
 		99A06CB21B38417C0046FFCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A06CB11B38417C0046FFCA /* main.m */; };
 		99A06CB51B38417C0046FFCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A06CB41B38417C0046FFCA /* AppDelegate.m */; };
 		99A06CB81B38417C0046FFCA /* Calculations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99A06CB61B38417C0046FFCA /* Calculations.xcdatamodeld */; };
@@ -27,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		990271AE1B398C8400F476C6 /* RootTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewCell.h; sourceTree = "<group>"; };
+		990271AF1B398C8400F476C6 /* RootTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewCell.m; sourceTree = "<group>"; };
+		990271B01B398C8400F476C6 /* RootTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootTableViewCell.xib; sourceTree = "<group>"; };
+		990271B31B398F0100F476C6 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		990271BA1B39920D00F476C6 /* CalculationsNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationsNavigationViewController.h; sourceTree = "<group>"; };
+		990271BB1B39920D00F476C6 /* CalculationsNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationsNavigationViewController.m; sourceTree = "<group>"; };
 		99A06CAC1B38417C0046FFCA /* Calculations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A06CB01B38417C0046FFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99A06CB11B38417C0046FFCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,10 +95,16 @@
 				99A06CB41B38417C0046FFCA /* AppDelegate.m */,
 				99A06CB91B38417C0046FFCA /* RootViewController.h */,
 				99A06CBA1B38417C0046FFCA /* RootViewController.m */,
+				990271B31B398F0100F476C6 /* RootViewController.xib */,
 				99A06CBF1B38417C0046FFCA /* Images.xcassets */,
 				99A06CC11B38417C0046FFCA /* LaunchScreen.xib */,
 				99A06CB61B38417C0046FFCA /* Calculations.xcdatamodeld */,
 				99A06CAF1B38417C0046FFCA /* Supporting Files */,
+				990271AE1B398C8400F476C6 /* RootTableViewCell.h */,
+				990271AF1B398C8400F476C6 /* RootTableViewCell.m */,
+				990271B01B398C8400F476C6 /* RootTableViewCell.xib */,
+				990271BA1B39920D00F476C6 /* CalculationsNavigationViewController.h */,
+				990271BB1B39920D00F476C6 /* CalculationsNavigationViewController.m */,
 			);
 			path = Calculations;
 			sourceTree = "<group>";
@@ -199,7 +215,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				990271B21B398C8400F476C6 /* RootTableViewCell.xib in Resources */,
 				99A06CC31B38417C0046FFCA /* LaunchScreen.xib in Resources */,
+				990271B41B398F0100F476C6 /* RootViewController.xib in Resources */,
 				99A06CC01B38417C0046FFCA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,10 +236,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				990271BC1B39920D00F476C6 /* CalculationsNavigationViewController.m in Sources */,
 				99A06CB51B38417C0046FFCA /* AppDelegate.m in Sources */,
 				99A06CB81B38417C0046FFCA /* Calculations.xcdatamodeld in Sources */,
 				99A06CBB1B38417C0046FFCA /* RootViewController.m in Sources */,
 				99A06CB21B38417C0046FFCA /* main.m in Sources */,
+				990271B11B398C8400F476C6 /* RootTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +432,7 @@
 				99A06CD41B38417C0046FFCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99A06CD51B38417C0046FFCA /* Build configuration list for PBXNativeTarget "CalculationsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +441,7 @@
 				99A06CD71B38417C0046FFCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
