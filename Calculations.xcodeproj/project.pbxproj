@@ -11,6 +11,8 @@
 		990271B21B398C8400F476C6 /* RootTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 990271B01B398C8400F476C6 /* RootTableViewCell.xib */; };
 		990271B41B398F0100F476C6 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 990271B31B398F0100F476C6 /* RootViewController.xib */; };
 		990271BC1B39920D00F476C6 /* CalculationsNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 990271BB1B39920D00F476C6 /* CalculationsNavigationViewController.m */; };
+		99A050691B3998D7009BEC16 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A050681B3998D7009BEC16 /* DetailViewController.m */; };
+		99A0506E1B399B35009BEC16 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99A0506C1B399B35009BEC16 /* DetailViewController.xib */; };
 		99A06CB21B38417C0046FFCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A06CB11B38417C0046FFCA /* main.m */; };
 		99A06CB51B38417C0046FFCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A06CB41B38417C0046FFCA /* AppDelegate.m */; };
 		99A06CB81B38417C0046FFCA /* Calculations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99A06CB61B38417C0046FFCA /* Calculations.xcdatamodeld */; };
@@ -37,6 +39,9 @@
 		990271B31B398F0100F476C6 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		990271BA1B39920D00F476C6 /* CalculationsNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationsNavigationViewController.h; sourceTree = "<group>"; };
 		990271BB1B39920D00F476C6 /* CalculationsNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationsNavigationViewController.m; sourceTree = "<group>"; };
+		99A050671B3998D7009BEC16 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		99A050681B3998D7009BEC16 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		99A0506C1B399B35009BEC16 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		99A06CAC1B38417C0046FFCA /* Calculations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A06CB01B38417C0046FFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99A06CB11B38417C0046FFCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,6 +110,9 @@
 				990271B01B398C8400F476C6 /* RootTableViewCell.xib */,
 				990271BA1B39920D00F476C6 /* CalculationsNavigationViewController.h */,
 				990271BB1B39920D00F476C6 /* CalculationsNavigationViewController.m */,
+				99A050671B3998D7009BEC16 /* DetailViewController.h */,
+				99A050681B3998D7009BEC16 /* DetailViewController.m */,
+				99A0506C1B399B35009BEC16 /* DetailViewController.xib */,
 			);
 			path = Calculations;
 			sourceTree = "<group>";
@@ -216,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				990271B21B398C8400F476C6 /* RootTableViewCell.xib in Resources */,
+				99A0506E1B399B35009BEC16 /* DetailViewController.xib in Resources */,
 				99A06CC31B38417C0046FFCA /* LaunchScreen.xib in Resources */,
 				990271B41B398F0100F476C6 /* RootViewController.xib in Resources */,
 				99A06CC01B38417C0046FFCA /* Images.xcassets in Resources */,
@@ -242,6 +251,7 @@
 				99A06CBB1B38417C0046FFCA /* RootViewController.m in Sources */,
 				99A06CB21B38417C0046FFCA /* main.m in Sources */,
 				990271B11B398C8400F476C6 /* RootTableViewCell.m in Sources */,
+				99A050691B3998D7009BEC16 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
